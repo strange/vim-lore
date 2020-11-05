@@ -3,6 +3,16 @@
 Simple vim colorscheme inspired by the colors found in the cockpit of "the
 Mandalorian".
 
+## Installation
+
+Installation using Vundle:
+
+    Plug 'strange/vim-lore'
+
+Enable the colorscheme:
+
+    colorscheme lore
+
 ## Screenshots
 
 JavaScript:

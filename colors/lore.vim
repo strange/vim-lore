@@ -14,9 +14,7 @@ let s:theme.onyx = '14181c'
 
 let s:theme.shade1 = '4cba9c'
 let s:theme.shade2 = 'fc5e03'
-let s:theme.shade3 = 'fac252'
 let s:theme.shade3 = 'faba52'
-" let s:theme.shade4 = 'fadb84'
 let s:theme.shade4 = 'fad87a'
 
 let s:theme.accent1 = 'a7c957'

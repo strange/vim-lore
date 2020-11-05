@@ -11,6 +11,7 @@ Installation using Vundle:
 
 Enable the colorscheme:
 
+    set termguicolors
     colorscheme lore
 
 ## Screenshots

@@ -177,7 +177,7 @@ call s:HL('jsObjectKey', 'wheat')
 " JSX
 
 call s:HL('jsxComponentName', 'shade3')
-call s:HL('jsxTagName', 'shade2')
+call s:HL('jsxTagName', 'shade3')
 call s:HL('jsxAttrib', 'shade4')
 call s:HL('jsxOpenPunct', 'shade3')
 call s:HL('jsxClosePunct', 'shade3')
@@ -190,8 +190,8 @@ call s:HL('jsDocTags', 'blue')
 
 " HTML
 
-call s:HL('htmlTagName', 'shade3')
-call s:HL('htmlTagN', 'shade3')
+call s:HL('htmlTagName', 'shade2')
+call s:HL('htmlTagN', 'shade2')
 call s:HL('htmlEndTag', 'shade3')
 call s:HL('htmlArg', 'shade4')
 
@@ -205,7 +205,8 @@ call s:HL('diffAdded', 'green')
 call s:HL('pythonClassVar', 'shade4')
 call s:HL('pythonBoolean', 'accent3')
 call s:HL('pythonNone', 'accent3')
-call s:HL('pythonDecorator', 'shade2')
+call s:HL('pythonDecorator', 'shade1')
+call s:HL('pythonStatement', 'shade2')
 
 " Erlang
 

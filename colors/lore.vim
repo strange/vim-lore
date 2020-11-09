@@ -93,13 +93,15 @@ call s:HL('Identifier', 'wheat')
 call s:HL('PreProc', 'shade1')
 call s:HL('Include', 'shade1')
 call s:HL('Statement', 'shade1')
+call s:HL('Operator', 'shade1')
 
 call s:HL('Type', 'shade2')
 call s:HL('StorageClass', 'shade2')
 call s:HL('Keyword', 'shade2')
 call s:HL('Exception', 'shade2')
-call s:HL('Operator', 'shade2')
 call s:HL('Constant', 'shade2')
+" call s:HL('Operator', 'shade2')
+
 
 call s:HL('Function', 'shade3')
 

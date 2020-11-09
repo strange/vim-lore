@@ -197,6 +197,11 @@ call s:HL('htmlTagN', 'shade2')
 call s:HL('htmlEndTag', 'shade3')
 call s:HL('htmlArg', 'shade4')
 
+" XML
+
+call s:HL('xmlAttrib', 'shade4')
+call s:HL('xmlEqual', 'shade1')
+
 " Diff
 
 call s:HL('diffRemoved', 'red')

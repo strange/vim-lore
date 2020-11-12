@@ -41,7 +41,7 @@ Erlang:
 
 ![JavaScript](/screenshots/erlang.png)
 
-## Other apps
+## Other applications
 
 ### Kitty
 

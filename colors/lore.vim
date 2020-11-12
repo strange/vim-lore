@@ -17,6 +17,11 @@ let s:theme.shade2 = 'fc5e03'
 let s:theme.shade3 = 'faba52'
 let s:theme.shade4 = 'fad87a'
 
+" Harmony
+" let s:theme.shade1 = '6bbbb5'
+" let s:theme.shade2 = 'f5696f'
+" let s:theme.shade3 = 'f7a877'
+
 let s:theme.accent1 = 'a7c957'
 let s:theme.accent2 = 'f18e5e'
 let s:theme.accent3 = 'c76fa5'
@@ -116,6 +121,12 @@ call s:HL('Number', 'accent2')
 
 call s:HL('LineNr', 'darkestwheat')
 call s:HL('Visual', 'onyx', 'cyan')
+call s:HL('CursorLineNr', 'yellow')
+
+" Folds
+
+call s:HL('Folded', 'cyan', 'lightonyx', 'italic')
+call s:HL('FoldColumn', 'onyx', 'cyan', 'italic')
 
 call s:HL('ColorColumn', 'fg', 'lightonyx')
 call s:HL('VertSplit', 'lightonyx', 'lightonyx')
@@ -204,12 +215,21 @@ call s:HL('xmlEqual', 'shade1')
 
 " Diff
 
-call s:HL('diffRemoved', 'red')
-call s:HL('diffAdded', 'green')
+call s:HL('DiffDelete', 'onyx', 'red')
+call s:HL('DiffAdd', 'onyx', 'green')
+call s:HL('DiffChange', 'onyx', 'cyan')
+call s:HL('DiffText', 'onyx', 'yellow')
+
+call s:HL('diffRemoved', 'onyx', 'red')
+call s:HL('diffAdded', 'onyx', 'green')
+call s:HL('diffChanged', 'onyx', 'cyan')
+call s:HL('diffLine', 'onyx', 'blue')
+
+" call s:HL('DiffChange', s:aqua, s:bg0, s:inverse)
+" call s:HL('DiffText',   s:yellow, s:bg0, s:inverse)
 
 " Python
 
-call s:HL('pythonClassVar', 'shade4')
 call s:HL('pythonBoolean', 'accent3')
 call s:HL('pythonNone', 'accent3')
 call s:HL('pythonDecorator', 'shade1')

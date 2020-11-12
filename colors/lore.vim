@@ -13,14 +13,21 @@ let s:theme.lightonyx = '2f3439'
 let s:theme.onyx = '14181c'
 
 let s:theme.shade1 = '4cba9c'
-let s:theme.shade2 = 'fc5e03'
+let s:theme.shade2 = 'ec5923'
 let s:theme.shade3 = 'faba52'
 let s:theme.shade4 = 'fad87a'
 
-" Harmony
-" let s:theme.shade1 = '6bbbb5'
-" let s:theme.shade2 = 'f5696f'
-" let s:theme.shade3 = 'f7a877'
+" Scheme variations
+
+if exists('g:lore_mode')
+    if g:lore_mode == 'harmony'
+        " let s:theme.shade1 = '6bbbb5'
+        let s:theme.shade2 = 'f5696f'
+        " let s:theme.shade3 = 'f7a877'
+    elseif g:lore_mode == 'crisp'
+        let s:theme.shade2 = 'fc5e03'
+    endif
+endif
 
 let s:theme.accent1 = 'a7c957'
 let s:theme.accent2 = 'f18e5e'
@@ -231,13 +238,14 @@ call s:HL('pythonBoolean', 'accent3')
 call s:HL('pythonNone', 'accent3')
 call s:HL('pythonDecorator', 'shade1')
 call s:HL('pythonStatement', 'shade2')
+call s:HL('pythonExClass', 'wheat')
 
 " Erlang
 
 call s:HL('erlangAttribute', 'shade1')
-call s:HL('erlangAtom', 'shade4')
 call s:HL('erlangLocalFuncCall', 'shade3')
-call s:HL('erlangGlobalFuncCall', 'wheat')
+call s:HL('erlangGlobalFuncCall', 'shade4')
+call s:HL('erlangBIF', 'shade4')
 
 call s:HL('erlangInclude', 'shade1')
 call s:HL('erlangRecord', 'accent2')
@@ -246,7 +254,8 @@ call s:HL('erlangBracket', 'wheat')
 call s:HL('erlangVariable', 'wheat')
 call s:HL('erlangKeyword', 'shade1')
 call s:HL('erlangType', 'shade2')
-call s:HL('erlangBoolean', 'accent3')
+call s:HL('erlangBoolean', 'accent2')
+call s:HL('erlangAtom', 'accent2')
 
 " FIXME
 " ModeMsg

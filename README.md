@@ -25,9 +25,17 @@ experience:
 
 ## Screenshots
 
+Vim:
+
+![JavaScript](/screenshots/vim.png)
+
 JavaScript:
 
 ![JavaScript](/screenshots/js.png)
+
+Python:
+
+![JavaScript](/screenshots/python.png)
 
 Erlang:
 

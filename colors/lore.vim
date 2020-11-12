@@ -235,15 +235,18 @@ call s:HL('pythonStatement', 'shade2')
 " Erlang
 
 call s:HL('erlangAttribute', 'shade1')
-call s:HL('erlangInclude', 'accent3')
+call s:HL('erlangAtom', 'shade4')
+call s:HL('erlangLocalFuncCall', 'shade3')
+call s:HL('erlangGlobalFuncCall', 'wheat')
+
+call s:HL('erlangInclude', 'shade1')
 call s:HL('erlangRecord', 'accent2')
 call s:HL('erlangMacro', 'shade1')
-call s:HL('erlangAtom', 'shade3')
-call s:HL('erlangBracket', 'shade3')
-call s:HL('erlangLocalFuncCall', 'shade2')
-call s:HL('erlangGlobalFuncCall', 'wheat')
+call s:HL('erlangBracket', 'wheat')
 call s:HL('erlangVariable', 'wheat')
 call s:HL('erlangKeyword', 'shade1')
+call s:HL('erlangType', 'shade2')
+call s:HL('erlangBoolean', 'accent3')
 
 " FIXME
 " ModeMsg

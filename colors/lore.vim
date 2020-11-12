@@ -225,9 +225,6 @@ call s:HL('diffAdded', 'onyx', 'green')
 call s:HL('diffChanged', 'onyx', 'cyan')
 call s:HL('diffLine', 'onyx', 'blue')
 
-" call s:HL('DiffChange', s:aqua, s:bg0, s:inverse)
-" call s:HL('DiffText',   s:yellow, s:bg0, s:inverse)
-
 " Python
 
 call s:HL('pythonBoolean', 'accent3')
@@ -249,17 +246,9 @@ call s:HL('erlangVariable', 'wheat')
 call s:HL('erlangKeyword', 'shade1')
 
 " FIXME
-" CursorColumn
-" CursorLine
-" DiffChange
-" DiffText
-" FoldColumn
-" ModeMsg
 " ModeMsg
 " MoreMsg
-" CursorLineNr
-" MatchParen
 " NonText
 " Question
-" Highlighted directory
-
+" CursorColumn
+" CursorLine

@@ -214,8 +214,8 @@ call s:HL('jsDocTags', 'blue')
 
 " HTML
 
-call s:HL('htmlTagName', 'shade2')
-call s:HL('htmlTagN', 'shade2')
+call s:HL('htmlTagName', 'shade3')
+call s:HL('htmlTagN', 'shade3')
 call s:HL('htmlEndTag', 'shade3')
 call s:HL('htmlArg', 'shade4')
 
@@ -244,6 +244,11 @@ call s:HL('pythonDecorator', 'shade1')
 call s:HL('pythonStatement', 'shade2')
 call s:HL('pythonExClass', 'wheat')
 call s:HL('pythonException', 'shade1')
+
+" Django
+
+call s:HL('djangoTagBlock', 'shade3')
+call s:HL('djangoArgument', 'shade4')
 
 " Erlang
 

@@ -13,7 +13,7 @@ let s:theme.lightonyx = '2f3439'
 let s:theme.onyx = '14181c'
 
 let s:theme.shade1 = '4cba9c'
-let s:theme.shade2 = 'ec5923'
+let s:theme.shade2 = 'fc5e03'
 let s:theme.shade3 = 'faba52'
 let s:theme.shade4 = 'fad87a'
 
@@ -26,12 +26,16 @@ if exists('g:lore_mode')
         " let s:theme.shade3 = 'f7a877'
     elseif g:lore_mode == 'crisp'
         let s:theme.shade2 = 'fc5e03'
+    elseif g:lore_mode == 'soft'
+        let s:theme.shade2 = 'ec5923'
     endif
 endif
 
 let s:theme.accent1 = 'a7c957'
 let s:theme.accent2 = 'f18e5e'
 let s:theme.accent3 = 'c76fa5'
+let s:theme.accent3 = 'c76fa5'
+let s:theme.accent3 = 'd474b4'
 
 let s:theme.green = '9cbf50'
 let s:theme.red = 'e84231'

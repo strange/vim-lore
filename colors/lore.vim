@@ -243,6 +243,7 @@ call s:HL('pythonNone', 'accent3')
 call s:HL('pythonDecorator', 'shade1')
 call s:HL('pythonStatement', 'shade2')
 call s:HL('pythonExClass', 'wheat')
+call s:HL('pythonException', 'shade1')
 
 " Erlang
 

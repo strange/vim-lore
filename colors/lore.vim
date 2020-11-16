@@ -208,6 +208,23 @@ call s:HL('jsxClosePunct', 'shade3')
 call s:HL('jsxCloseString', 'shade3')
 call s:HL('jsxBraces', 'shade3')
 
+" TypeScript
+
+call s:HL('typescriptVariable', 'shade2')
+call s:HL('typescriptAssign', 'shade1')
+call s:HL('typescriptObjectLabel', 'wheat')
+call s:HL('typescriptBoolean', 'accent3')
+call s:HL('typescriptNull', 'accent3')
+call s:HL('typescriptBraces', 'wheat')
+call s:HL('typescriptCall', 'wheat')
+call s:HL('typescriptDestructureVariable', 'wheat')
+call s:HL('typescriptDestructureLabel', 'wheat')
+
+" jsDoc
+
+call s:HL('jsDocTags', 'blue')
+
+
 " jsDoc
 
 call s:HL('jsDocTags', 'blue')

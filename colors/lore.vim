@@ -267,6 +267,12 @@ call s:HL('pythonException', 'shade1')
 call s:HL('djangoTagBlock', 'shade3')
 call s:HL('djangoArgument', 'shade4')
 
+" Haskell
+
+call s:HL('haskellType', 'shade4')
+call s:HL('haskellKeyword', 'shade3')
+call s:HL('haskellIdentifier', 'accent2')
+
 " Erlang
 
 call s:HL('erlangAttribute', 'shade1')

@@ -289,6 +289,49 @@ call s:HL('erlangType', 'shade2')
 call s:HL('erlangBoolean', 'accent2')
 call s:HL('erlangAtom', 'accent2')
 
+" CSS
+
+call s:HL('cssPositioningProp', 'wheat')
+call s:HL('cssMediaProp', 'wheat')
+call s:HL('cssBackgroundProp', 'wheat')
+call s:HL('cssColorProp', 'wheat')
+call s:HL('cssTextProp', 'wheat')
+call s:HL('cssBoxProp', 'wheat')
+call s:HL('cssFlexibleBoxProp', 'wheat')
+call s:HL('cssBorderProp', 'wheat')
+call s:HL('cssFontProp', 'wheat')
+call s:HL('cssUIProp', 'wheat')
+call s:HL('cssPageProp', 'wheat')
+call s:HL('cssListProp', 'wheat')
+call s:HL('cssGeneratedContentProp', 'wheat')
+call s:HL('cssTableProp', 'wheat')
+call s:HL('cssTransitionProp', 'wheat')
+call s:HL('cssTransformProp', 'wheat')
+
+call s:HL('cssPositioningAttr', 'shade4')
+call s:HL('cssMediaAttr', 'shade4')
+call s:HL('cssBackgroundAttr', 'shade4')
+call s:HL('cssColorAttr', 'shade4')
+call s:HL('cssTextAttr', 'shade4')
+call s:HL('cssBoxAttr', 'shade4')
+call s:HL('cssFlexibleBoxAttr', 'shade4')
+call s:HL('cssBorderAttr', 'shade4')
+call s:HL('cssFontAttr', 'shade4')
+call s:HL('cssUIAttr', 'shade4')
+call s:HL('cssPageAttr', 'shade4')
+call s:HL('cssCommonAttr', 'shade4')
+call s:HL('cssListAttr', 'shade4')
+call s:HL('cssGeneratedContentAttr', 'shade4')
+call s:HL('cssTableAttr', 'shade4')
+call s:HL('cssTransitionAttr', 'shade4')
+call s:HL('cssTransformAttr', 'shade4')
+call s:HL('cssMultiColumnAttr', 'shade4')
+
+call s:HL('cssBraces', 'wheat')
+
+call s:HL('scssSelectorName', 'shade3')
+call s:HL('scssVariable', 'shade4')
+
 " FIXME
 " ModeMsg
 " MoreMsg

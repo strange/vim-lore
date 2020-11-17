@@ -143,7 +143,6 @@ call s:HL('ColorColumn', 'fg', 'lightonyx')
 call s:HL('VertSplit', 'lightonyx', 'lightonyx')
 call s:HL('SignColumn', 'lightonyx', 'lightonyx')
 call s:HL('NonText', 'lighteronyx')
-call s:HL('Error', 'red')
 
 call s:HL('StatusLine', 'onyx', 'wheat')
 call s:HL('StatusLineNC', 'darkwheat', 'lightonyx')
@@ -165,7 +164,7 @@ call s:HL('Underlined', 'blue')
 
 " Errors
 
-call s:HL('Error', 'red')
+call s:HL('Error', 'wheat', 'red')
 call s:HL('ErrorMsg', 'wheat', 'red')
 
 " Comments

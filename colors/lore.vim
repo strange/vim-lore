@@ -33,9 +33,7 @@ endif
 
 let s:theme.accent1 = 'a7c957'
 let s:theme.accent2 = 'f18e5e'
-let s:theme.accent3 = 'c76fa5'
-let s:theme.accent3 = 'c76fa5'
-let s:theme.accent3 = 'd474b4'
+let s:theme.accent3 = 'd48190'
 
 let s:theme.green = '9cbf50'
 let s:theme.red = 'e84231'
@@ -265,6 +263,7 @@ call s:HL('pythonException', 'shade1')
 
 call s:HL('djangoTagBlock', 'shade3')
 call s:HL('djangoArgument', 'shade4')
+call s:HL('djangoStatement', 'shade2')
 
 " Haskell
 
@@ -307,6 +306,9 @@ call s:HL('cssGeneratedContentProp', 'wheat')
 call s:HL('cssTableProp', 'wheat')
 call s:HL('cssTransitionProp', 'wheat')
 call s:HL('cssTransformProp', 'wheat')
+call s:HL('cssGridProp', 'wheat')
+call s:HL('cssMultiColumnProp', 'wheat')
+call s:HL('cssInteractProp', 'wheat')
 
 call s:HL('cssPositioningAttr', 'shade4')
 call s:HL('cssMediaAttr', 'shade4')
@@ -326,11 +328,17 @@ call s:HL('cssTableAttr', 'shade4')
 call s:HL('cssTransitionAttr', 'shade4')
 call s:HL('cssTransformAttr', 'shade4')
 call s:HL('cssMultiColumnAttr', 'shade4')
+call s:HL('cssGridAttr', 'shade4')
+call s:HL('cssMultiColumnAttr', 'shade4')
+call s:HL('cssInteractAttr', 'shade4')
+
+call s:HL('cssPseudoClassId', 'accent3')
 
 call s:HL('cssBraces', 'wheat')
 
 call s:HL('scssSelectorName', 'shade3')
 call s:HL('scssVariable', 'shade4')
+call s:HL('scssAmpersand', 'shade1')
 
 " FIXME
 " ModeMsg

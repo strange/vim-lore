@@ -17,20 +17,6 @@ let s:theme.shade2 = 'fc5e03'
 let s:theme.shade3 = 'faba52'
 let s:theme.shade4 = 'fad87a'
 
-" Scheme variations
-
-if exists('g:lore_mode')
-    if g:lore_mode == 'harmony'
-        " let s:theme.shade1 = '6bbbb5'
-        let s:theme.shade2 = 'f5696f'
-        " let s:theme.shade3 = 'f7a877'
-    elseif g:lore_mode == 'crisp'
-        let s:theme.shade2 = 'fc5e03'
-    elseif g:lore_mode == 'soft'
-        let s:theme.shade2 = 'ec5923'
-    endif
-endif
-
 let s:theme.accent1 = 'a7c957'
 let s:theme.accent2 = 'f18e5e'
 let s:theme.accent3 = 'd48190'
@@ -43,6 +29,28 @@ let s:theme.cyan = '74b0a8'
 let s:theme.blue = '57afde'
 let s:theme.magenta = 'e657a1'
 let s:theme.purple = 'a186ad'
+
+" Scheme variations
+
+if exists('g:lore_mode')
+    if g:lore_mode == 'harmony'
+        " let s:theme.shade1 = '6bbbb5'
+        let s:theme.shade2 = 'f5696f'
+        " let s:theme.shade3 = 'f7a877'
+    elseif g:lore_mode == 'suave'
+        let s:theme.shade1 = '4cbaa6'
+        let s:theme.shade2 = 'fa5555'
+    elseif g:lore_mode == 'brown'
+        " let s:theme.shade2 = 'C38681'
+        let s:theme.shade2 = 'C58B7E'
+    elseif g:lore_mode == 'crisp'
+        " let s:theme.shade2 = 'fc5e03'
+    elseif g:lore_mode == 'soft'
+        let s:theme.shade2 = 'ec5923'
+    elseif g:lore_mode == 'alt'
+        let s:theme.shade2 = 'ED4A6B'
+    endif
+endif
 
 " Color conversion algorithm from:
 " https://unix.stackexchange.com/questions/269077/tput-setaf-color-table-how-to-determine-color-codes
@@ -258,12 +266,24 @@ call s:HL('pythonDecorator', 'shade1')
 call s:HL('pythonStatement', 'shade2')
 call s:HL('pythonExClass', 'wheat')
 call s:HL('pythonException', 'shade1')
+call s:HL('pythonClassVar', 'shade4')
 
 " Django
 
 call s:HL('djangoTagBlock', 'shade3')
 call s:HL('djangoArgument', 'shade4')
 call s:HL('djangoStatement', 'shade2')
+
+" Rust
+
+call s:HL('rustSelf', 'shade4')
+call s:HL('rustMacro', 'accent3')
+call s:HL('rustEnumVariant', 'shade4')
+call s:HL('rustSigil', 'shade1')
+call s:HL('rustKeyword', 'shade2')
+call s:HL('rustModPath', 'shade4')
+call s:HL('rustModPathSep', 'accent2')
+call s:HL('rustStorage', 'shade2')
 
 " Haskell
 

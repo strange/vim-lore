@@ -25,13 +25,9 @@ experience:
 
 ## Screenshots
 
-Vim:
+Rust:
 
-![JavaScript](/screenshots/vim.png)
-
-JavaScript:
-
-![JavaScript](/screenshots/js.png)
+![Rust](/screenshots/rust.png)
 
 Python:
 
@@ -40,6 +36,14 @@ Python:
 Erlang:
 
 ![JavaScript](/screenshots/erlang.png)
+
+Vim:
+
+![JavaScript](/screenshots/vim.png)
+
+JavaScript:
+
+![JavaScript](/screenshots/js.png)
 
 ## Other applications
 

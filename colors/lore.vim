@@ -34,19 +34,16 @@ let s:theme.purple = 'a186ad'
 
 if exists('g:lore_mode')
     if g:lore_mode == 'harmony'
-        " let s:theme.shade1 = '6bbbb5'
         let s:theme.shade2 = 'f5696f'
         " let s:theme.shade3 = 'f7a877'
     elseif g:lore_mode == 'suave'
-        let s:theme.shade1 = '4cbaa6'
         let s:theme.shade2 = 'fa5555'
     elseif g:lore_mode == 'brown'
-        " let s:theme.shade2 = 'C38681'
-        let s:theme.shade2 = 'C58B7E'
+        let s:theme.shade2 = 'c5917e'
     elseif g:lore_mode == 'crisp'
-        " let s:theme.shade2 = 'fc5e03'
+        let s:theme.shade2 = 'fc5e03'
     elseif g:lore_mode == 'soft'
-        let s:theme.shade2 = 'ec5923'
+        let s:theme.shade2 = 'fc8003'
     elseif g:lore_mode == 'alt'
         let s:theme.shade2 = 'ED4A6B'
     endif
@@ -284,6 +281,7 @@ call s:HL('rustKeyword', 'shade2')
 call s:HL('rustModPath', 'shade4')
 call s:HL('rustModPathSep', 'accent2')
 call s:HL('rustStorage', 'shade2')
+call s:HL('rustBoolean', 'accent3')
 
 " Haskell
 
@@ -359,6 +357,10 @@ call s:HL('cssBraces', 'wheat')
 call s:HL('scssSelectorName', 'shade3')
 call s:HL('scssVariable', 'shade4')
 call s:HL('scssAmpersand', 'shade1')
+
+" Vim wiki
+
+call s:HL('VimwikiHeader1', 'shade3')
 
 " FIXME
 " ModeMsg

@@ -43,6 +43,7 @@ if exists('g:lore_mode')
     elseif g:lore_mode == 'crisp'
         let s:theme.shade2 = 'fc5e03'
     elseif g:lore_mode == 'soft'
+        let s:theme.shade2 = 'fc7303'
         let s:theme.shade2 = 'fc8003'
     elseif g:lore_mode == 'alt'
         let s:theme.shade2 = 'ED4A6B'
@@ -104,7 +105,11 @@ endfunction
 
 " normal
 
-call s:HL('Normal', 'wheat', 'onyx')
+if exists('g:lore_respect_terminal_bg') && g:lore_respect_terminal_bg
+    call s:HL('Normal', 'wheat')
+else
+    call s:HL('Normal', 'wheat', 'onyx')
+endif
 call s:HL('Identifier', 'wheat')
 
 " shades
@@ -262,6 +267,7 @@ call s:HL('pythonNone', 'accent3')
 call s:HL('pythonDecorator', 'shade1')
 call s:HL('pythonStatement', 'shade2')
 call s:HL('pythonExClass', 'wheat')
+call s:HL('pythonClass', 'shade3')
 call s:HL('pythonException', 'shade1')
 call s:HL('pythonClassVar', 'shade4')
 
@@ -282,6 +288,8 @@ call s:HL('rustModPath', 'shade4')
 call s:HL('rustModPathSep', 'accent2')
 call s:HL('rustStorage', 'shade2')
 call s:HL('rustBoolean', 'accent3')
+call s:HL('rustDeriveTrait', 'accent3')
+call s:HL('rustAssert', 'accent3')
 
 " Haskell
 

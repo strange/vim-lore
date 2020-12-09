@@ -23,6 +23,17 @@ experience:
 
     set termguicolors
 
+## Configuration
+
+Honor terminal background color:
+
+    let g:lore_respect_terminal_bg = 1
+
+Color variations. Available options are: `soft`, `harmony`, `suave`, `brown`,
+`crisp`, `alt` (defaults to `crisp`):
+
+    let g:lore_mode = 'soft'
+
 ## Screenshots
 
 Rust:

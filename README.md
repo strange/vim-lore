@@ -56,6 +56,10 @@ JavaScript:
 
 ![JavaScript](/screenshots/js.png)
 
+vimdiff:
+
+![vimdiff](/screenshots/vimdiff.png)
+
 ## Other applications
 
 ### Kitty

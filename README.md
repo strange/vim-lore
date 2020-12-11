@@ -70,6 +70,14 @@ Include custom colors in your `.conf/kitty/kitty.conf`:
 
 ### Xresources (e.g. `xterm`, `rxvt`)
 
-Add to your `~/.Xresources` and load with `xrdb`:
+Add the contents of `apps/.Xresources` to your `~/.Xresources`, or, if you have
+preprocessor such as `cpp` installed, include it:
+
+    #include "/path/to/vim-lore/apps/.Xresources"
+
+And reload with `xrdb`:
 
     $ xrdb ~/.Xresources
+
+Make sure `xrdb` is not invoked with `-nocpp` if you're using includes (by your
+display manager, if you're using one, for example).

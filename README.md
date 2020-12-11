@@ -67,3 +67,9 @@ vimdiff:
 Include custom colors in your `.conf/kitty/kitty.conf`:
 
     include /path/to/vim-lore/apps/kitty.conf
+
+### Xresources (e.g. `xterm`, `rxvt`)
+
+Add to your `~/.Xresources` and load with `xrdb`:
+
+    $ xrdb ~/.Xresources

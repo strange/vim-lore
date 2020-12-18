@@ -27,6 +27,7 @@ let s:theme.orange = 'e8aa58'
 let s:theme.yellow = 'ffd166'
 let s:theme.cyan = '74b0a8'
 let s:theme.blue = '57afde'
+let s:theme.indigo = '57afde'
 let s:theme.magenta = 'e657a1'
 let s:theme.purple = 'a186ad'
 
@@ -115,7 +116,6 @@ call s:HL('Identifier', 'wheat')
 " shades
 
 call s:HL('PreProc', 'shade1')
-call s:HL('Include', 'shade1')
 call s:HL('Statement', 'shade1')
 call s:HL('Operator', 'shade1')
 
@@ -135,6 +135,7 @@ call s:HL('Special', 'shade4')
 
 call s:HL('String', 'accent1')
 call s:HL('Number', 'accent2')
+call s:HL('Include', 'accent3')
 
 " UI
 
